@@ -1,0 +1,90 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: Hind, sans-serif;
+  background-image: url(/static/img/fon.jpg);
+  background-size: 1480px 850px;
+  font-size: 15px;
+  padding: 0px 20px; /*выровнять др страницы по бокам*/
+}
+html, html a, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+nav {
+  width: 960px;
+  display: flex;
+ /* border-bottom: 1px solid white;*/
+
+}
+
+nav:before {
+  display: block;
+  height: 50px;
+}
+
+ul{
+  display: inline;
+  margin:0;
+  height: 50px;
+  justify-content: flex-end;
+}
+
+li a{
+  padding: 0px;
+  text-transform: uppercase;
+  margin-right: 10px;
+
+}
+ a{
+  color: white;
+  display: block;
+  height: 50px;
+  padding: 0px;
+  text-decoration: none;
+  line-height: 50px;
+ }
+
+a:focus, a:hover, a:active {
+  outline: 0;
+  color: #999caa;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 150px;
+  font-weight: 700;
+  font-family: Hind, sans-serif;
+  color: white;
+  line-height: 0.9;
+  margin: 100px 20px 15px;
+}
+h2, h3, h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Hind, sans-serif;
+  color: white;
+  line-height: 1.2;
+  margin: 20px 25px 15px;
+}
+h5{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Hind, sans-serif;
+  color: white;
+  line-height: 1.2;
+  margin: 20px 25px 15px;
+}
+p {
+  display: flex;
+  margin: 25px 30px;;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Hind, sans-serif;
+  color: #a6a7aa;
+  line-height: 0.9;
+}
+
